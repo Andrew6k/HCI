@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+
+<body>
+    <article>
+        <header>
+            <h1>Homework</h1>
+        </header>
+        <div typeof="sa:AuthorsList" role="contentinfo">
+            <h2>Author:</h2>
+            <ul>
+                <li typeof="sa:ContributorRole" property="schema:author">
+                    <span typeof="schema:Person" property="schema:author">
+                        <meta property="schema:givenName" content="Andrei">
+                        <meta property="schema:familyName" content="Cîrjanu">
+                        <span property="schema:name">Andrei Cîrjanu</span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <section role="doc-introduction">
+            <h2>1. Introduction:</h2>
+            <section role="doc-abstract">
+                <h3>1.1. Abstract:</h3>
+                <p>
+                    The project is a web application that will allow the users to visualize informations regarding publications from a particular area or from a specific author. The informations will be gathered from "Google Scholar" or "Scopus" and saved in a data base. 
+                </p>
+            </section>
+        </section>
+        <section>
+            <h2>2. Description:</h2>
+            <section>
+                <h3>2.1. Front-end:</h3>
+                <p>
+                    The project will contain multiple web pages divided into two categories depending on the person that tries to access them : regular user and professor/admin. Including an autentification page.
+                </p>
+                <section>
+                    <h4>2.1.1. Regular users:</h4>
+                    <p> Have access to the main page where they can search different articles/publications from a particular area or from a specific author.
+                    </p>
+                </section>
+                <section>
+                    <h4>2.1.2. Professors:</h4>
+                    <p> Besides the main page they have access to a different page where they can view dates regarding the number of citations for every publication. They will receive a score based on the number of citations.
+                    </p>
+                </section>
+                <section>
+                    <h4>2.1.3. Admins:</h4>
+                    <p> Besides the privilegies granted to the proffesors, they have access to the data base and they can make changes on it. They are also responsibles for the proffesors's accounts.
+                    </p>
+                </section>
+            </section>
+            <section>
+                <h3>2.2. Back-end:</h3>
+                <p>
+                    <img src="i1.png" alt="Main page" style="width:600px;height:600px;">
+                    <img src="i2.png" alt="search page" style="width: 600px;height: 600px;">
+                </p>
+                <p>
+                    <img src="i3.png" alt="proffesor page" style="width: 600px;height: 600px;">
+                    <img src="i4.png" alt="admin page" style="width: 600px;height: 600px;">
+                </p>
+            </section>
+        </section>
+        <section>
+            <h2>3. Personas</h2>
+            <p>
+                <img src="diagram.jfif" alt="diagram" style="width: 600px;height: 600px;">
+            </p>
+            <p>
+                <ul>
+                <li> Regular user: John, 19 - wants to search informations for his homework at artificial intelligence. </li>
+                <li> Regular user: Jack, 20 - search the previous work of his proffesor. </li>
+                <li> Proffesor: Alice, 47 - wants to view the number of citations of her article. </li>
+                <li> Admin: Emil, 35 - updates the information from the data base and makes a new account for proffesor Mark. </li>
+                </ul>
+            </p>
+        </section>
+        <section role="doc-conclusion">
+            <h2>4. Conclusion:</h2>
+            <p> This application is designed to evaluate each proffesor with a grade based on the number of citations associated to his publications.
+            </p>
+        </section>
+    </article>
+</body>
+
+</html> 
